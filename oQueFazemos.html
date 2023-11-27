@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="images/Prancheta 1.svg" type="image/svg">
+    <link rel="icon" href="images/logoMissaoAmbiental.png" type="image/png">
     <title>Missão Ambiental</title>
     
     <link rel="stylesheet" href="styles/styles.css">
@@ -22,7 +22,7 @@
     <header class="header_area">
         <div class="container">
             <nav class=" navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand logo_h" href="index.html"><img src="images/Logo Missão Ambiental.png" alt="Imagem Logo"></a>
+                <a class="navbar-brand logo_h" href="index.html"><img src="images/logoMissaoAmbiental.png" alt="Logo Missao Ambiental"></a>
                 <h4 class="sec_h4">MISSÃO AMBIENTAL</h4>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="false" aria-label="Toggle navigation">
                     <span class="icon-bar"></span>
@@ -34,10 +34,10 @@
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nós</a></li>
                         <li class="nav-item active"><a class="nav-link" href="oQueFazemos.html">O Que Fazemos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/py/templates/agenda.html">Agenda</a></li>
+                        <li class="nav-item"><a class="nav-link" href="agenda.html">Agenda</a></li>
                         <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
                         <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-                        <li class="nav-item"><a class="nav-link" href="doacao.html">Doe aqui</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://linktr.ee/missaoambiental?utm_source=linktree_profile_share&ltsid=004d8c8f-dc40-49e9-9418-9625e0221814" target="_blank">Participe</a></li>
                     </ul>
                 </div>
             </nav>
@@ -69,8 +69,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/agroecologia.png" alt="Imagem Agroecologia">
-                            <a href="agroecologia.html" class="btn theme_btn button_hover">Saiba Mais</a>
+                            <img src="images/agroecologia.png" alt="Agroecologia">
+                            <button class="btn theme_btn button_hover saiba_mais" data-target="modal-agroecologia">Saiba Mais</button>
                         </div>
                         <h4 class="sec_h4">Agroecologia</h4>
                     </div>
@@ -78,8 +78,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/compostagemComunitaria.png" alt="Imagem Compostagem">
-                            <a href="compostagem.html" class="btn theme_btn button_hover">Saiba Mais</a>
+                            <img src="images/compostagemComunitaria.png" alt="Compostagem">
+                            <button class="btn theme_btn button_hover saiba_mais" data-target="modal-compostagem">Saiba Mais</button>
                         </div>
                         <h4 class="sec_h4">Compostagem Comunitária</h4>
                     </div>
@@ -87,8 +87,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/abelha.png" alt="Imagem Abelha">
-                            <a href="abelhas.html" class="btn theme_btn button_hover">Saiba Mais</a>
+                            <img src="images/abelha.png" alt="Abelhas Nativas sem Ferrão">
+                            <button class="btn theme_btn button_hover saiba_mais" data-target="modal-abelhas">Saiba Mais</button>
                         </div>
                         <h4 class="sec_h4">Abelhas Nativas Sem Ferrão</h4>
                     </div>
@@ -96,43 +96,19 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/captaçaoChuva.png" alt="Imagem Captação Chuva">
-                            <a href="chuva.html" class="btn theme_btn button_hover">Saiba Mais</a>
+                            <img src="images/captacaoChuva.png" alt="Captação de água de chuva">
+                            <button class="btn theme_btn button_hover saiba_mais" data-target="modal-chuva">Saiba Mais</button>
                         </div>
                         <h4 class="sec_h4">Captação De Água De Chuva</h4>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!--Agendar Area-->
-    <section class="agendar_area">
-        <div class="container">
-            <div class="agendar_agora_table">
-                <div class=" col-md-12 text-center">
-                    <h2>Agende Sua Visita</h2>
-                    <div class="col-md-12 agendar_table_item">
-                        <button class="theme_btn button_hover agendar_btn" type="button">Agendar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--O Que Fazemos Area-->
-    <section class="oQueFazemos_area section_gap">
-        <div class="container">
-            <div class="titulo_section text-center">
-                <h2 class="titulo_cor">Atividades</h2>
-                <p>Contamos com um espaço cedido pela iniciativa privada onde são desenvolvidas atividades de educação ambiental.</p>
-            </div>
             <div class="row atividade_dois">
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/materiaisReciclaveis.png" alt="Imagem Materiais Recicláveis">
-                            <a href="reciclaveis.html" class="btn theme_btn button_hover">Saiba Mais</a>
+                            <img src="images/materiaisReciclaveis.png" alt="Materiais Recicláveis">
+                            <button class="btn theme_btn button_hover saiba_mais" data-target="modal-reciclaveis">Saiba Mais</button>
                         </div>
                         <h4 class="sec_h4">Materiais Recicláveis</h4>
                     </div>
@@ -140,7 +116,7 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/especiesNativas.png" alt="Imagem Espécies Nativas">
+                            <img src="images/especiesNativas.png" alt="Espécies Nativas">
                             <a href="nativas.html" class="btn theme_btn button_hover">Saiba Mais</a>
                         </div>
                         <h4 class="sec_h4">Espécies Nativas</h4>
@@ -149,8 +125,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/voluntario.png" alt="Imagem Voluntários">
-                            <a href="voluntariar.html" class="btn theme_btn button_hover">Saiba Mais</a>
+                            <img src="images/voluntario.png" alt="Voluntários">
+                            <button class="btn theme_btn button_hover saiba_mais" data-target="modal-voluntarios">Saiba Mais</button>
                         </div>
                         <h4 class="sec_h4">Voluntários</h4>
                     </div>
@@ -158,15 +134,172 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/interbairros.png" alt="Imagem Projeto Interbairros">
-                            <a href="interbairros.html" class="btn theme_btn button_hover">Saiba Mais</a>
+                            <img src="images/interbairros.png" alt="Projeto Interbairros">
+                            <button class="btn theme_btn button_hover saiba_mais" data-target="modal-interbairros">Saiba Mais</button>
                         </div>
                         <h4 class="sec_h4">Projeto Interbairros</h4>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!--Modais-->
+
+        <div class="modal" id="modal-agroecologia">
+            <div class="modal-content">
+                <span class="close" id="close-agroecologia">&times;</span>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sobre_conteudo">
+                                <h2 class="titulo titulo_cor">Agroecologia</h2>
+                                <p>Qual a sua Missão Ambiental?<br><br>
+                                    A agroecologia é uma abordagem agrícola que busca integrar princípios ecológicos no cultivo de alimentos. Ela valoriza a biodiversidade, promove práticas de conservação do solo e minimiza o uso de insumos químicos. Promove também a equidade social, valorizando agricultores familiares e comunidades locais. Ao priorizar a sustentabilidade e a resiliência, a agroecologia contribui para enfrentar desafios como as mudanças climáticas e a degradação ambiental</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/agroecologiapage.png" alt="Agroecologia">
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+        <div class="modal" id="modal-compostagem">
+            <div class="modal-content">
+                <span class="close" id="close-compostagem">&times;</span>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sobre_conteudo">
+                                <h2 class="titulo titulo_cor">Compostagem Comunitária</h2>
+                                <p>Qual a sua Missão Ambiental?<br><br>
+                                    A compostagem comunitária é uma prática sustentável que envolve a decomposição de resíduos orgânicos em uma escala local, promovendo a redução de resíduos e a criação de fertilizantes naturais.<br> Ao compostar em conjunto, os membros da comunidade podem transformar seus resíduos alimentares em valiosos recursos para enriquecer o solo, promovendo a consciência ambiental e a gestão responsável de resíduos.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/compostagempage.png" alt="Compostagem Comunitária">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-abelhas">
+            <div class="modal-content">
+                <div class="close" id="close-abelhas">&times;</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sobre_conteudo">
+                                <h2 class="titulo titulo_cor">Abelhas Nativas Sem Ferrão</h2>
+                                <p>Qual a sua Missão Ambiental?<br><br>
+                                    As abelhas nativas sem ferrão desempenham um papel vital na polinização e preservação da biodiversidade. Essas pequenas polinizadoras, muitas vezes subestimadas, são essenciais para a reprodução de plantas nativas e a manutenção de ecossistemas saudáveis.<br>Ao contrário das abelhas europeias, as sem ferrão não representam risco significativo para os humanos, tornando-as benéficas para a agricultura e jardins urbanos.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/abelhaspage.png" alt="Abelhas Nativas Sem Ferrão">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-chuva">
+            <div class="modal-content">
+                <div class="close" id="close-chuva">&times;</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sobre_conteudo">
+                                <h2 class="titulo titulo_cor">Captação de Água de Chuva</h2>
+                                <p>Qual a sua Missão Ambiental?<br><br>
+                                    A captação de água de chuva é uma prática sustentável que envolve a coleta e armazenamento da água precipitada para uso posterior. Essa abordagem contribui significativamente para a gestão hídrica sustentável, reduzindo a demanda sobre os recursos hídricos convencionais.<br>Além de fornecer uma fonte alternativa de água, a captação de água de chuva auxilia na prevenção de enchentes e na recarga de aquíferos.
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/chuvapage.png" alt="Captação de água de chuva">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-reciclaveis">
+            <div class="modal-content">
+                <div class="close" id="close-reciclaveis">&times;</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sobre_conteudo">
+                                <h2 class="titulo titulo_cor">Materiais Recicláveis</h2>
+                                <p>Qual a sua Missão Ambiental?<br><br>
+                                    A utilização de materiais recicláveis desempenha um papel fundamental na redução do impacto ambiental causado pelo descarte inadequado de resíduos. Materiais como papel, plástico, vidro e metal podem ser reciclados, economizando recursos naturais e reduzindo a quantidade de resíduos em aterros sanitários.<br>Ao promover o uso de materiais recicláveis, apoiamos uma economia circular mais sustentável, incentivando práticas que conservam recursos e minimizam o impacto ambiental. </p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/reciclaveispage.png" alt="Materiais Recicláveis">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-voluntarios">
+            <div class="modal-content">
+                <div class="close" id="close-voluntarios">&times;</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sobre_conteudo">
+                                <h2 class="titulo titulo_cor">Voluntários</h2>
+                                <p>Qual a sua Missão Ambiental?<br><br>
+                                    Os voluntários de uma ONG desempenham um papel crucial na implementação de iniciativas sociais e ambientais. Ao doar seu tempo e habilidades de maneira altruística, esses indivíduos contribuem para a promoção do bem-estar da comunidade e a resolução de problemas locais.<br>Seja envolvendo-se em atividades de conscientização, arrecadação de fundos ou execução de projetos práticos, os voluntários desempenham um papel vital na capacitação e no sucesso das organizações não governamentais. </p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/voluntariospage.png" alt="Voluntários">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_r5UnINtsEyfoTkQUBshW4lwC5aIqGFsjzSh8NRTZDyoY7w/viewform" class="voluntario-btn btn theme_btn button_hover" target="_blank">Quero ser um Voluntário</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="modal-interbairros">
+            <div class="modal-content">
+                <div class="close" id="close-interbairros">&times;</div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="sobre_conteudo">
+                                <h2 class="titulo titulo_cor">Projeto Interbairros</h2>
+                                <p>Qual a sua Missão Ambiental?<br><br>
+                                    Projetos interbairros são iniciativas que buscam fortalecer a colaboração e a coesão entre diferentes comunidades dentro de uma região. Esses projetos envolvem a participação ativa dos moradores, promovendo o diálogo, a troca de ideias e a implementação de ações conjuntas para abordar questões comuns.<br>Ao incentivar a integração entre bairros, tais projetos podem melhorar a qualidade de vida, compartilhar recursos e fortalecer os laços sociais.</p>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="images/interbairrospage.png" alt="Projeto Interbairros">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+        <!--Agendar Area-->
+        <section class="agendar_area padding-b">
+            <div class="container">
+                <div class="agendar_agora_table">
+                    <div class=" col-md-12 text-center">
+                        <h2>Agende Sua Visita</h2>
+                        <div class="col-md-12 agendar_table_item">
+                            <a class="theme_btn button_hover agendar_btn paddin" href="agenda.html">Agendar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <!--Footer Area-->
     <footer class="footer-area section_gap">
@@ -175,7 +308,7 @@
                 <div class="col-lg-3  col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <h6 class="titulo_footer">Para Todos</h6>
-                        <p>Como é bom contemplar a natureza retribuindo o cuidado. Parabéns aos voluntários da Missão Ambiental Ipiranga, vocês são exemplo para a comunidade de Vida na terra.</p>
+                        <p class="p-footer">Como é bom contemplar a natureza retribuindo o cuidado. Parabéns aos voluntários da Missão Ambiental Ipiranga, vocês são exemplo para a comunidade de Vida na terra.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6">
@@ -184,18 +317,18 @@
                         <div class="row">
                             <div class="col-4">
                                 <ul class="list_style">
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">Sobre</a></li>
-                                    <li><a href="oQueFazemos.html">Atividades</a></li>
-                                    <li><a href="agenda.html">Agenda</a></li>
+                                    <li><a href="index.html" class="p-footer">Home</a></li>
+                                    <li><a href="about.html" class="p-footer">Sobre</a></li>
+                                    <li><a href="oQueFazemos.html" class="p-footer">Atividades</a></li>
+                                    <li><a href="agenda.html" class="p-footer">Agenda</a></li>
                                 </ul>
                             </div>
                             <div class="col-4">
                                 <ul class="list_style">
-                                    <li><a href="galeria.html">Galeria</a></li>
-                                    <li><a href="contato.html">Contato</a></li>
-                                    <li><a href="doacao.html">Doação</a></li>
-                                    <li><a href="voluntariar.html">Voluntários</a></li>
+                                    <li><a href="galeria.html" class="p-footer">Galeria</a></li>
+                                    <li><a href="contato.html" class="p-footer">Contato</a></li>
+                                    <li><a href="https://linktr.ee/missaoambiental?utm_source=linktree_profile_share&ltsid=004d8c8f-dc40-49e9-9418-9625e0221814" class="p-footer" target="_blank">Participe</a></li>
+                                    <li><a href="voluntariar.html" class="p-footer">Voluntários</a></li>
                                 </ul>
                             </div>										
                         </div>							
@@ -204,10 +337,10 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-footer-widget">
                         <h6 class="titulo_footer">Parceiros</h6>
-                        <p><p>Quer ser um parceiro? Entre em contato conosco abaixo.</p>
+                        <p class="p-footer">Quer ser um parceiro? Entre em contato conosco abaixo.</p>
                         <div id="mc_embed_signup">
                             <div class="input-group d-flex flex-row">
-                                <a class="btn sub-btn subscribe_form">Quero Ser Parceiro</a>		
+                                <a class="btn sub-btn subscribe_form" href="https://api.whatsapp.com/send?phone=5511969848080" target="_blank">Quero Ser Parceiro</a>		
                             </div>									
                             <div class="mt-10 info"></div>
                         </div>
@@ -217,30 +350,31 @@
                     <div class="single-footer-widget instafeed">
                         <h6 class="titulo_footer">InstaFeed</h6>
                         <ul class="list_style instafeed d-flex flex-wrap">
-                            <li><img src="images/instafeed1.png" alt="InstaFeed"></li>
-                            <li><img src="images/instafeed2.png" alt="InstaFeed"></li>
-                            <li><img src="images/instafeed3.png" alt="InstaFeed"></li>
-                            <li><img src="images/instafeed4.png" alt="InstaFeed"></li>
-                            <li><img src="images/instafeed5.png" alt="InstaFeed"></li>
-                            <li><img src="images/instafeed6.png" alt="InstaFeed"></li>
-                            <li><img src="images/instafeed7.png" alt="InstaFeed"></li>
-                            <li><img src="images/instafeed8.png" alt="InstaFeed"></li>
+                            <li><a href="https://www.instagram.com/missao.ambiental/" target="_blank"><img src="images/instafeed1.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/missao.ambiental/" target="_blank"><img src="images/instafeed2.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/missao.ambiental/" target="_blank"><img src="images/instafeed3.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/missao.ambiental/" target="_blank"><img src="images/instafeed4.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/missao.ambiental/" target="_blank"><img src="images/instafeed5.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/missao.ambiental/" target="_blank"><img src="images/instafeed6.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/missao.ambiental/" target="_blank"><img src="images/instafeed7.png" alt=""></a></li>
+                            <li><a href="https://www.instagram.com/missao.ambiental/" target="_blank"><img src="images/instafeed8.png" alt=""></a></li>
                         </ul>
                     </div>
                 </div>						
             </div>
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">
-                    <p class="col-lg-8 col-sm-12 footer-text m-0">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados.</p>
+                    <p class="col-lg-8 col-sm-12 footer-text m-0 p-footer">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados.</p>
                 <div class="col-lg-4 col-sm-12 footer-social">
-                    <a href="https://www.instagram.com/missao.ambiental/"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/missaoambiental.org"><i class="fa fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/missao.ambiental/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/missaoambiental.org" target="_blank"><i class="fa fa-facebook"></i></a>
 
                 </div>
             </div>
         </div>
     </footer>
 
+    <script src="js/modal.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -251,6 +385,17 @@
     <script src="js/stellar.js"></script>
     <script src="lightbox/lightbox.js"></script>
     <script src="js/custom.js"></script>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
 
 </body>
 </html>
