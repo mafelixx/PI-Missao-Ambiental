@@ -45,7 +45,7 @@
     testimonialSlider();
     
     
-     /---------gallery isotope js-----------/
+     /*---------gallery isotope js-----------*/
     function galleryMasonry(){
         if ( $('#gallery').length ){
             $('#gallery').imagesLoaded( function() {
