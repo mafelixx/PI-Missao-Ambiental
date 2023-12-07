@@ -1,0 +1,48 @@
+@media (max-width: 1480px) {
+    .navbar .menu_nav .nav-item.submenu ul {
+        left: auto;
+        right: 0;
+    }
+
+    .parceiros_area {
+        padding-bottom: 75px;
+    }
+
+    .testimonial_slider .testimonial_item {
+        align-items: center;
+    }
+
+    .testimonial_item {
+        width: auto;
+    }
+    .agendar_btn {
+        width: auto;
+    }
+
+
+
+@media (max-width: 1199px){
+    .sobre_img {
+        margin-top: 200px;
+    }
+
+    .parceiros_area {
+        padding-bottom: 75px;
+    }
+
+    .testimonial_slider .testimonial_item {
+        align-items: center;
+    }
+
+    .testimonial_item {
+        width: auto;
+    }
+
+    .agendar_btn {
+        width: auto;
+    }
+
+    .altura-img {
+        height: 285px;
+    }
+}
