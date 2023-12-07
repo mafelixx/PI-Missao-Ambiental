@@ -230,17 +230,6 @@ button:focus {
 
 }
 
-.agendar_btn {
-    width: 50%;
-    color: #fff !important;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 30px;
-    font-weight: 500;
-    padding: 5px 20px;
-    text-align: center;
-    border-radius: 5px;
-}
 
 
 .header_area {
@@ -498,7 +487,7 @@ button:focus {
 }
 
 .bg-parallax2 {
-    background: url("../images/bg-parallax2.png") no-repeat scroll center 0/cover;
+    background: url("../images/about_banner.png") no-repeat scroll center 0/cover;
     opacity: 0.50;
 }
 
@@ -561,6 +550,7 @@ button:focus {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    border-radius: 5px;
 }
 
 .agendar_agora_table h2 {
@@ -641,7 +631,7 @@ button:focus {
 .atividade_item .atividade_img {
     position: relative;
     margin-bottom: 10px;
-    overflow: hidden;
+    overflow-y: hidden;
     border-radius: 10px;
 }
 
@@ -677,10 +667,10 @@ button:focus {
 
 .sec_h4 {
     font-size: 18px;
-    line-height: 38px;
     font-weight: 600;
     color: #222222;
     margin-bottom: 0px;
+    
 }
 
 .atividade_dois{
@@ -2405,5 +2395,72 @@ h1, h2, h3, h4, h5, h6 {
 	cursor: pointer;
     z-index: 2;
 }
+
+.chave-pix {
+    padding: 20px;
+
+    background-color: #EFE2DA;
+    border-radius: 5px;
+    color: #415b4a;
+
+}
+
+.doacao_area {
+    background-color: #415b4a;
+}
+
+.titulo_doacao {
+    color: #EFE2DA;
+}
+
+.doacao-p {
+    color: #EFE2DA !important;
+}
+
+.p-doacao {
+    color: #415b4a;
+
+}
+
+.doacao_banner {
+    background-color: #EFE2DA;
+    padding: 5%;
+    box-shadow: 10px 20px 80px #333333;
+    border-bottom: 20px solid #538A6A ;
+}
+
+.border-line_doacao {
+    height: 2px;
+    background: #538A6A;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.mb-50 {
+    margin-bottom: 15%;
+}
+
+#btn-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #607F2F;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    z-index: 999;
+    opacity: 0;
+    transition: opacity 0.5s ease; 
+}
+
+#btn-topo:hover {
+    background-color: #237C31;
+}
+
 
 
