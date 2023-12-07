@@ -1,3 +1,5 @@
+/*Biblioteca jQuery para facilitar a manipulação do DOM (Document Object Model) e algumas outras bibliotecas, como Owl Carousel e SimpleLightbox */
+
 ;(function($){
     "use strict"
     var nav_offset_top = $('.header_area').height()+50; 
