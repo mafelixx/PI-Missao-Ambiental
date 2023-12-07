@@ -32,13 +32,13 @@
                 <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
                     <ul class="nav navbar-nav menu_nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="about.html">Sobre Nós</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">Sobre Nós</a></li>
                         <li class="nav-item"><a class="nav-link" href="oQueFazemos.html">O Que Fazemos</a></li>
                         <li class="nav-item"><a class="nav-link" href="agenda.html">Agenda</a></li>
                         <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
                         <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://linktr.ee/missaoambiental?utm_source=linktree_profile_share&ltsid=004d8c8f-dc40-49e9-9418-9625e0221814" target="_blank">Participe</a></li>
-                        <li class="nav-item"><a class="nav-link" href="doacao.html">Doe Aqui</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="doacao.html">Doe Aqui</a></li>
                     </ul>
                 </div>
             </nav>
@@ -60,13 +60,32 @@
     </section>
 
     <!--Doação Area-->
-    <section class="contact_area section_gap">
+    <section class="doacao_area section_gap">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2 class="titulo text-center">Faça a sua doação!</h4>
-                    <h4 class="chave-pix text-center">Chave pix CNPJ: 00.722.578/0001-51</h4>
-
+            <div class="titulo_section text-center">
+                <h2 class="titulo_doacao">Faça a sua doação!</h2>
+                <p class="doacao-p">Qual a sua Missão Ambiental?</p>
+            </div>
+            <div class="col-lg-12 text-center">
+                <h4 class="chave-pix">Chave pix CNPJ: 00.722.578/0001-51</h4>
+                <div class="border-line_doacao"></div>
+        </div>
+        <div class="container">
+            <div class="doacao_banner">
+                <div class="titulo p-doacao text-center">
+                    <h2>DOAÇÃO DE MATERIAIS PARA MISSÃO AMBIENTAL</h2>
+                    <h3 class="mb-30">Precisamos da sua ajuda!</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 gallery_item">
+                        <img class="img-fluid" src="images/materiaisDoacao1.png">
+                    </div>
+                    <div class="col-lg-4 gallery_item">
+                        <img class="img-fluid" src="images/materiaisDoacao2.png">
+                    </div>
+                    <div class="col-lg-4 gallery_item">
+                        <img class="img-fluid" src="images/materiaisDoacao3.png">
+                    </div>
                 </div>
             </div>
         </div>
@@ -99,7 +118,7 @@
                                     <li><a href="galeria.html" class="p-footer">Galeria</a></li>
                                     <li><a href="contato.html" class="p-footer">Contato</a></li>
                                     <li><a href="https://linktr.ee/missaoambiental?utm_source=linktree_profile_share&ltsid=004d8c8f-dc40-49e9-9418-9625e0221814" class="p-footer" target="_blank">Participe</a></li>
-                                    <li><a href="voluntariar.html" class="p-footer">Voluntários</a></li>
+                                    <li><a href="doacao.html" class="p-footer">Doação</a></li>
                                 </ul>
                             </div>										
                         </div>							
@@ -111,7 +130,7 @@
                         <p class="p-footer">Quer ser um parceiro? Entre em contato conosco abaixo.</p>
                         <div id="mc_embed_signup">
                             <div class="input-group d-flex flex-row">
-                                <a class="btn sub-btn subscribe_form" href="https://api.whatsapp.com/send?phone=5511969848080" target="_blank">Quero Ser Parceiro</a>		
+                                <button class="btn sub-btn subscribe_form" href="https://api.whatsapp.com/send?phone=5511969848080" target="_blank" onclick="parceriaWhatsapp()">Quero Ser Parceiro</button>			
                             </div>									
                             <div class="mt-10 info"></div>
                         </div>
@@ -135,7 +154,7 @@
             </div>
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">
-                    <p class="col-lg-8 col-sm-12 footer-text m-0 p-footer">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados.</p>
+                    <p class="col-lg-8 col-sm-12 footer-text m-0 p-footer">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados à Missão Ambiental.</p>
                 <div class="col-lg-4 col-sm-12 footer-social">
                     <a href="https://www.instagram.com/missao.ambiental/" target="_blank"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.facebook.com/missaoambiental.org" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -145,6 +164,8 @@
         </div>
     </footer>
 
+    <script src="js/btnTopo.js"></script>
+    <script src="js/parceria.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
