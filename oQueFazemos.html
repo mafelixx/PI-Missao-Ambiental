@@ -38,6 +38,7 @@
                         <li class="nav-item"><a class="nav-link" href="galeria.html">Galeria</a></li>
                         <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://linktr.ee/missaoambiental?utm_source=linktree_profile_share&ltsid=004d8c8f-dc40-49e9-9418-9625e0221814" target="_blank">Participe</a></li>
+                        <li class="nav-item"><a class="nav-link" href="doacao.html">Doe Aqui</a></li>
                     </ul>
                 </div>
             </nav>
@@ -134,10 +135,10 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="atividade_item text-center">
                         <div class="atividade_img">
-                            <img src="images/interbairros.png" alt="Projeto Interbairros">
+                            <img src="images/corrego.png" alt="Monitoramento do Córrego São José">
                             <button class="btn theme_btn button_hover saiba_mais" data-target="modal-interbairros">Saiba Mais</button>
                         </div>
-                        <h4 class="sec_h4">Projeto Interbairros</h4>
+                        <h4 class="sec_h4">Monitoramento do Córrego São José</h4>
                     </div>
                 </div>
             </div>
@@ -233,8 +234,7 @@
                             <div class="sobre_conteudo">
                                 <h2 class="titulo titulo_cor">Materiais Recicláveis</h2>
                                 <p>Qual a sua Missão Ambiental?<br><br>
-                                    A utilização de materiais recicláveis desempenha um papel fundamental na redução do impacto ambiental causado pelo descarte inadequado de resíduos. Materiais como papel, plástico, vidro e metal podem ser reciclados, economizando recursos naturais e reduzindo a quantidade de resíduos em aterros sanitários.<br>Ao promover o uso de materiais recicláveis, apoiamos uma economia circular mais sustentável, incentivando práticas que conservam recursos e minimizam o impacto ambiental. </p>
-                                
+                                    A utilização de materiais recicláveis desempenha um papel fundamental na redução do impacto ambiental causado pelo descarte inadequado de resíduos. Materiais como papel, plástico, vidro e metal podem ser reciclados, reduzindo a quantidade de resíduos em aterros sanitários.<br>Ao promover o uso de materiais recicláveis, apoiamos uma economia circular mais sustentável, incentivando práticas que conservam recursos e minimizam o impacto ambiental. </p>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -265,21 +265,21 @@
                 </div>
             </div>
         </div>
-        <div class="modal" id="modal-interbairros">
+        <div class="modal" id="modal-corrego">
             <div class="modal-content">
-                <div class="close" id="close-interbairros">&times;</div>
+                <div class="close" id="close-corrego">&times;</div>
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="sobre_conteudo">
-                                <h2 class="titulo titulo_cor">Projeto Interbairros</h2>
+                                <h2 class="titulo titulo_cor">Monitoramento do Córrego São José</h2>
                                 <p>Qual a sua Missão Ambiental?<br><br>
-                                    Projetos interbairros são iniciativas que buscam fortalecer a colaboração e a coesão entre diferentes comunidades dentro de uma região. Esses projetos envolvem a participação ativa dos moradores, promovendo o diálogo, a troca de ideias e a implementação de ações conjuntas para abordar questões comuns.<br>Ao incentivar a integração entre bairros, tais projetos podem melhorar a qualidade de vida, compartilhar recursos e fortalecer os laços sociais.</p>
+                                    acompanhamento contínuo das condições ambientais desse curso d'água. Esse processo envolve a coleta de dados sobre qualidade da água, fauna, flora e outros parâmetros, visando avaliar o estado de preservação do córrego. Essas informações são essenciais para a implementação de medidas de conservação e gestão sustentável desse recurso hídrico.</p>
                                 
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <img class="img-fluid" src="images/interbairrospage.png" alt="Projeto Interbairros">
+                            <img class="img-fluid" src="images/corregopage.png" alt="Monitoramento do Córrego São José">
                         </div>
                     </div>
                 </div>
@@ -294,7 +294,7 @@
                     <div class=" col-md-12 text-center">
                         <h2>Agende Sua Visita</h2>
                         <div class="col-md-12 agendar_table_item">
-                            <a class="theme_btn button_hover agendar_btn paddin" href="agenda.html">Agendar</a>
+                            <a class=" btn theme_btn button_hover" href="agenda.html">Agendar</a>
                         </div>
                     </div>
                 </div>
@@ -328,7 +328,7 @@
                                     <li><a href="galeria.html" class="p-footer">Galeria</a></li>
                                     <li><a href="contato.html" class="p-footer">Contato</a></li>
                                     <li><a href="https://linktr.ee/missaoambiental?utm_source=linktree_profile_share&ltsid=004d8c8f-dc40-49e9-9418-9625e0221814" class="p-footer" target="_blank">Participe</a></li>
-                                    <li><a href="voluntariar.html" class="p-footer">Voluntários</a></li>
+                                    <li><a href="doacao.html" class="p-footer">Doação</a></li>
                                 </ul>
                             </div>										
                         </div>							
@@ -340,7 +340,7 @@
                         <p class="p-footer">Quer ser um parceiro? Entre em contato conosco abaixo.</p>
                         <div id="mc_embed_signup">
                             <div class="input-group d-flex flex-row">
-                                <a class="btn sub-btn subscribe_form" href="https://api.whatsapp.com/send?phone=5511969848080" target="_blank">Quero Ser Parceiro</a>		
+                                <button class="btn sub-btn subscribe_form" href="https://api.whatsapp.com/send?phone=5511969848080" target="_blank" onclick="parceriaWhatsapp()">Quero Ser Parceiro</button>
                             </div>									
                             <div class="mt-10 info"></div>
                         </div>
@@ -364,7 +364,7 @@
             </div>
             <div class="border_line"></div>
             <div class="row footer-bottom d-flex justify-content-between align-items-center">
-                    <p class="col-lg-8 col-sm-12 footer-text m-0 p-footer">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados.</p>
+                    <p class="col-lg-8 col-sm-12 footer-text m-0 p-footer">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos os direitos reservados à Missão Ambiental.</p>
                 <div class="col-lg-4 col-sm-12 footer-social">
                     <a href="https://www.instagram.com/missao.ambiental/" target="_blank"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.facebook.com/missaoambiental.org" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -374,6 +374,8 @@
         </div>
     </footer>
 
+    <script src="js/btnTopo.js"></script>
+    <script src="js/parceria.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.js"></script>
